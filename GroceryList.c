@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "GroceryList.h"
 
-Entry* grocery_list[20];
+Entry grocery_list[20];
 
 int main(){
     return 0;
