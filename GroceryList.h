@@ -1,6 +1,6 @@
 typedef struct {
     char * item;
-    int * amount;
+    int amount;
 } Entry;
 
 /*
@@ -8,14 +8,14 @@ typedef struct {
 *
 * @param entry The entry to be added to the grocery list.
 */
-void add(Entry * entry);
+void add(Entry entry);
 
 /*
 * Removes an item from the list, identified by the name of the item.
 *
 * @param item The name of the item to be removed.
 */
-void remove(char * item);
+void remove_item(char * item, int amount);
 
 /*
 * Prints the list created by the user. This function will be called
